@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")  // Use environment variable
+  url      = mysql://root:laasya@1605@localhost:3306/refer  // Use environment variable
 }
 
 model Refer {
