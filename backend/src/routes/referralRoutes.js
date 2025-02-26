@@ -4,6 +4,6 @@ import { createReferral } from "../controllers/referralController.js";  // Impor
 const router = express.Router();
 
 // POST: Create referral route
-router.post("/", createReferral);  // Handles POST /referral
+router.post("/referral", createReferral);  // Handles POST /referral
 
 export default router;
